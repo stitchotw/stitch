@@ -22,6 +22,10 @@
     padding: var(--standard-margin);
 }
 
+.navigation-tab-content:not(.toolbar){
+    resize: vertical;
+}
+
 .active-navigation-tab {
     background-color: red;
 }
