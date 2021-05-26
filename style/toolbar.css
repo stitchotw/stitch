@@ -1,4 +1,12 @@
 
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: var(--large-margin);
+
+    padding: var(--standard-margin);
+}
+
 .toolbar-button-group {
     display: flex;
 }
@@ -12,6 +20,12 @@
 .toolbar-button > img {
     width: 24px;
     height: 24px;
+}
+
+.toolbar-dropdown-group {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 0px;
 }
 
 .toolbar-dropdown-button {
@@ -28,7 +42,7 @@
 .toolbar-dropdown-menu-button {
     width: 150px;
     height: 32px;
-    display: flex;
+    display: none;
 }
 
 .toolbar-dropdown-menu-button > img {
