@@ -3,8 +3,6 @@
     display: flex;
     flex-wrap: wrap;
     column-gap: var(--large-margin);
-
-    padding: var(--standard-margin);
 }
 
 .toolbar-button-group {

@@ -19,6 +19,7 @@
     /* vh = height of screen/view */
     max-height: 50vh;
     overflow: auto;
+    padding: var(--standard-margin);
 }
 
 .active-navigation-tab {
