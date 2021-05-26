@@ -2,11 +2,17 @@
 .toolbar {
     display: flex;
     flex-wrap: wrap;
-    column-gap: var(--large-margin);
+    column-gap: var(--standard-margin);
 }
 
 .toolbar-button-group {
     display: flex;
+}
+
+.toolbar-button-group + .toolbar-button-group {
+    color: gray;
+    border-left: 1px solid;
+    padding-left: var(--standard-margin);
 }
 
 .toolbar-button {
