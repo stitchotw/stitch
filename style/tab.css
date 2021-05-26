@@ -15,6 +15,15 @@
     height: 25px;
 }
 
+.navigation-tab-content {
+    /* vh = height of screen/view */
+    max-height: 50vh;
+    overflow: auto;
+}
+
+.active-navigation-tab {
+    background-color: red;
+}
 
 @media screen and (max-width: 15cm) {
     .navigation-tabs {
