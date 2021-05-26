@@ -1,0 +1,37 @@
+
+.toolbar-button-group {
+    display: flex;
+}
+
+.toolbar-button {
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+}
+
+.toolbar-button > img {
+    width: 24px;
+    height: 24px;
+}
+
+.toolbar-dropdown-button {
+    width: 24px;
+    height: 32px;
+    padding: 0px;
+}
+
+.toolbar-dropdown-button > img {
+    width: 10px;
+    height: 10px;
+}
+
+.toolbar-dropdown-menu-button {
+    width: 150px;
+    height: 32px;
+    display: flex;
+}
+
+.toolbar-dropdown-menu-button > img {
+    width: 24px;
+    height: 32px;
+}
