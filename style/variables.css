@@ -2,4 +2,5 @@
     --background-color: snow;
     --border-color: slategrey;
     --standard-margin: 5px;
+    --small-screen-width-limit: 10cm;
 }
