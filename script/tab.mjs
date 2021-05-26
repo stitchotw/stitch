@@ -4,13 +4,13 @@
 
 let activeTab;
 
-export function init(){
+export function initTabs(){
     console.info("Initializing tabs");
 
     const buttons = document.getElementsByClassName("navigation-tab");
     for (const btn of buttons) {
         btn.addEventListener("click", evt => switchSection(evt.target));
-        if (btn.classList.contains("active-navigation-tab")) {
+        if (btn.classList.contains("active")) {
             activeTab = btn;
         }
     }
@@ -28,6 +28,6 @@ function switchSection(sectionButton) {
 }
 
 function toggleActiveSection() {
-    activeTab.classList.toggle("active-navigation-tab");
+    activeTab.classList.toggle("active");
     document.getElementById(activeTab.id+"-content").classList.toggle("hidden");
 }

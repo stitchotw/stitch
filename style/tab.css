@@ -10,6 +10,10 @@
     display: inline;
 }
 
+.navigation-tab.active {
+    background-color: red;
+}
+
 .navigation-tab-icon {
     width: 25px;
     height: 25px;
@@ -24,10 +28,6 @@
 
 .navigation-tab-content:not(.toolbar){
     resize: vertical;
-}
-
-.active-navigation-tab {
-    background-color: red;
 }
 
 @media screen and (max-width: 15cm) {

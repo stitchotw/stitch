@@ -1,3 +1,5 @@
-import {init} from "./tab.mjs";
+import {initTabs} from "./tab.mjs";
+import {initAccordions} from "./accordion.mjs";
 
-init();
+initTabs();
+initAccordions();

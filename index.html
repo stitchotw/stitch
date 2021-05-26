@@ -19,7 +19,7 @@
             <img src='img/file-tab-icon.svg' class='navigation-tab-icon' />
             <div id='file-tab-text' class='navigation-tab-header'>file-tab</div>
          </button>
-         <button id='tools-tab' class='navigation-tab active-navigation-tab' title='tools-tab'>
+         <button id='tools-tab' class='navigation-tab active' title='tools-tab'>
             <img src='img/tools-tab-icon.svg' class='navigation-tab-icon' />
             <div id='tools-tab-text' class='navigation-tab-header'>tools-tab</div>
          </button>
@@ -126,7 +126,24 @@
       </div>
       <div id='library-tab-content' class='navigation-tab-content hidden'>Library not implemented yet</div>
       <div id='settings-tab-content' class='navigation-tab-content hidden'>Settings not implemented yet</div>
-      <div id='help-tab-content' class='navigation-tab-content hidden'>Help not implemented yet</div>
+      <div id='help-tab-content' class='navigation-tab-content hidden'>
+         <div class='accordion'>
+            <button id='help-about-header' class='accordion-header-button' title='help-about-header'>
+               <div id='help-about-header'>help-about-header</div>
+            </button>
+            <div id='help-about-content' class='accordion-content hidden'>
+               <p id='help-about-text'>help-about-text</p>
+            </div>
+         </div>
+         <div class='accordion'>
+            <button id='help-support-header' class='accordion-header-button' title='help-support-header'>
+               <div id='help-support-header'>help-support-header</div>
+            </button>
+            <div id='help-support-content' class='accordion-content hidden'>
+               <p id='help-support-text'>help-support-text</p>
+            </div>
+         </div>
+      </div>
       <div id='pattern-container'>
          <svg id='pattern' viewBox='0 0 100 100' >
             <defs>
