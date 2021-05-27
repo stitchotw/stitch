@@ -10,7 +10,10 @@ class ButtonClickHandler {
 
     fileSaveToFileButtonClick() { console.log("Save to file"); }
 
-    filePrintPatternButtonClick() { console.log("Print pattern"); }
+    filePrintPatternButtonClick() { 
+        console.log("Print pattern"); 
+        window.print();
+    }
 
     fileExportToPngButtonClick() { console.log("Export PNG"); }
 
