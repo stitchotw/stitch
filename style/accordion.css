@@ -9,7 +9,7 @@
 
 .accordion-header {
     display: grid;
-    grid-template-columns: 20px 1fr 20px;
+    grid-template-columns: 40px 1fr 40px;
     align-items:center;
     border: none;
     height: 1cm;
@@ -23,9 +23,15 @@
 .accordion-header:after {
     display:block;
     content: "";
-    width: 10;
-    height: 10;
+    width: 30px;
+    height: 30px;
     background-image: url("../img/accordion-down.svg");
+}
+
+.accordion-header:hover:after {
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 50%;
 }
 
 .accordion-header.active:after {
