@@ -3,6 +3,7 @@
     height: 2cm;
 }
 
-.language-selection-button.active {
-    background-color: red;
+.language-selection-button.active > img {
+    filter: drop-shadow(0px 0px 8px green);
+    /*box-shadow: 10px 5px 5px red;*/
 }
