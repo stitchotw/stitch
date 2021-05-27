@@ -10,6 +10,8 @@
       <link rel='stylesheet' type='text/css' media='screen' href='style/toolbar.css' />
       <link rel='stylesheet' type='text/css' media='screen' href='style/accordion.css' />
       <link rel='stylesheet' type='text/css' media='screen' href='style/pattern.css' />
+      <link rel='stylesheet' type='text/css' media='screen' href='style/library.css' />
+      <link rel='stylesheet' type='text/css' media='screen' href='style/settings.css' />
       <link rel='stylesheet' type='text/css' media='screen' href='style/app.css' />
       <script type='module' src='script/setup.mjs' defer > </script>
    </head>
@@ -124,8 +126,49 @@
             </div>
          </div>
       </div>
-      <div id='library-tab-content' class='navigation-tab-content hidden'>Library not implemented yet</div>
-      <div id='settings-tab-content' class='navigation-tab-content hidden'>Settings not implemented yet</div>
+      <div id='library-tab-content' class='navigation-tab-content hidden'>
+         <div class='accordion'>
+            <button id='settings-language-header' class='accordion-header' title='settings-language-header'>
+               <div id='settings-language-header'>settings-language-header</div>
+            </button>
+            <div id='settings-language-content' class='accordion-content hidden'>
+               <button id='a' class='library-pattern-button' title='a'>
+                  <img src='library/alpha/a.svg' />
+               </button>
+            </div>
+         </div>
+         <div class='accordion'>
+            <button id='settings-language-header' class='accordion-header' title='settings-language-header'>
+               <div id='settings-language-header'>settings-language-header</div>
+            </button>
+            <div id='settings-language-content' class='accordion-content hidden'>
+               <button id='a' class='library-pattern-button' title='a'>
+                  <img src='library/beta/a.svg' />
+               </button>
+               <button id='b' class='library-pattern-button' title='b'>
+                  <img src='library/beta/b.svg' />
+               </button>
+            </div>
+         </div>
+      </div>
+      <div id='settings-tab-content' class='navigation-tab-content hidden'>
+         <div class='accordion'>
+            <button id='settings-language-header' class='accordion-header' title='settings-language-header'>
+               <div id='settings-language-header'>settings-language-header</div>
+            </button>
+            <div id='settings-language-content' class='accordion-content hidden'>
+               <button id='en_gb' class='language-selection-button' title='en_gb'>
+                  <img src='translations/en_gb.svg' />
+               </button>
+               <button id='en_us' class='language-selection-button' title='en_us'>
+                  <img src='translations/en_us.svg' />
+               </button>
+               <button id='sv_se' class='language-selection-button' title='sv_se'>
+                  <img src='translations/sv_se.svg' />
+               </button>
+            </div>
+         </div>
+      </div>
       <div id='help-tab-content' class='navigation-tab-content hidden'>
          <div class='accordion'>
             <button id='help-about-header' class='accordion-header' title='help-about-header'>
