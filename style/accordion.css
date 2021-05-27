@@ -4,10 +4,32 @@
     flex-direction: column;
     flex-wrap: nowrap;
     margin: var(--standard-margin);
+    border: 1px solid var(--border-color);
 }
 
 .accordion-header {
+    display: grid;
+    grid-template-columns: 20px 1fr 20px;
+    align-items:center;
     border: none;
+    height: 1cm;
+}
+
+/* Fill the first column of the header grid to fix alignment */
+.accordion-header:before {
+    content: "";
+}
+
+.accordion-header:after {
+    display:block;
+    content: "";
+    width: 10;
+    height: 10;
+    background-image: url("../img/accordion-down.svg");
+}
+
+.accordion-header.active:after {
+    background-image: url("../img/accordion-up.svg");
 }
 
 .accordion-content {
