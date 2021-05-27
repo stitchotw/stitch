@@ -1,6 +1,6 @@
 class ButtonClickHandler {
 
-    toolsErasorButtonClick() {
+    toolsEraserButtonClick() {
         console.log("Erase");
     }
 

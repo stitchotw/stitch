@@ -14,7 +14,7 @@
     background-color: red;
 }
 
-.navigation-tab-icon {
+.navigation-tab > img {
     width: 25px;
     height: 25px;
 }
