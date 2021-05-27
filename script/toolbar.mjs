@@ -33,8 +33,3 @@ export function initToolbars() {
     }
 
 }
-class ToolbarButtonHandler {
-    toolsDrawButtonClick() {
-        console.log("asdsad");
-    }
-}
