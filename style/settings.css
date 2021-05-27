@@ -2,3 +2,7 @@
     width: 2cm;
     height: 2cm;
 }
+
+.language-selection-button.active {
+    background-color: red;
+}
