@@ -16,31 +16,40 @@
 }
 
 .toolbar-button {
-    width: 32px;
-    height: 32px;
+    width: var(--toolbar-icon-size);
+    height: var(--toolbar-icon-size);
+}
+
+.toolbar-dropdown-button {
+    width: var(--toolbar-dropdown-icon-width);
+    height: var(--toolbar-icon-size);
+}
+
+.toolbar-button, .toolbar-dropdown-button {
     padding: 0px;
+
+    border: none;
+    background-color: var(--active-tab-background-color);
+}
+
+.toolbar-button:hover, .toolbar-dropdown-button:hover {
+    background-color: var(--button-hover-color);
 }
 
 .toolbar-button > img {
-    width: 24px;
-    height: 24px;
+    width: 66%;
+    height: 66%;
+}
+
+.toolbar-dropdown-button > img {
+    width: 10px;
+    height: 10px;
 }
 
 .toolbar-dropdown-group {
     display: flex;
     flex-wrap: nowrap;
     column-gap: 0px;
-}
-
-.toolbar-dropdown-button {
-    width: 24px;
-    height: 32px;
-    padding: 0px;
-}
-
-.toolbar-dropdown-button > img {
-    width: 10px;
-    height: 10px;
 }
 
 .toolbar-dropdown-menu-button {

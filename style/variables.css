@@ -1,7 +1,23 @@
 :root {
-    --background-color: snow;
+    /* Colors */
+    --tab-background-color: lightgray;
+    --active-tab-background-color: white;
+    --pattern-background-color: white;
     --border-color: slategrey;
+    --button-hover-color: lightgray;
+
+    /* Margin */
     --standard-margin: 5px;
     --large-margin: 10px;
-    --small-screen-width-limit: 10cm;
+
+    /* Button sizes */
+    --tab-icon-size: 0.65cm;
+    --toolbar-icon-size: 32px;
+    --toolbar-dropdown-icon-width: 24px;
+
+    /* TODO: Unused at the moment */
+    --tab-size: 1cm;
+    --large-screen-tab-width: 4cm;
+    --small-screen-width-limit: 20cm;
+    --active-color: green;
 }

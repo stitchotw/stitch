@@ -1,10 +1,11 @@
 #pattern-container {
     overflow: auto;
+    padding: var(--standard-margin);
 }
 
 #pattern {
     width: 1600;
     height: 1600;
     border: 1px solid;
-    margin: 5px;
+    background-color: var(--pattern-background-color);
 }

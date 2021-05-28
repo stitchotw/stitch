@@ -1,9 +1,12 @@
 .language-selection-button {
     width: 2cm;
     height: 2cm;
+
+    border: none;
+    background-color: var(--active-tab-background-color);
 }
 
-.language-selection-button.active > img {
+.language-selection-button:hover > img, .language-selection-button.active > img {
     filter: drop-shadow(0px 0px 8px green);
     /*box-shadow: 10px 5px 5px red;*/
 }

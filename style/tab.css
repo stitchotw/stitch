@@ -1,28 +1,49 @@
 .navigation-tabs {
     display: grid;
     grid-template-columns: auto auto 1fr auto auto ;
-    background-color: darkgray;
+    background-color: var(--tab-background-color);
 }
 
 .navigation-tab {
-    width: 100px;
-    height: 50px;
-    display: inline;
+    width: 4cm;
+    height: 30px;
+    display: flex;
+    column-gap: var(--large-margin);
+    align-items: center;
+
+    border: none;
+    background-color: var(--tab-background-color);
+}
+
+
+.navigation-tab + .navigation-tab {
+    border-left: 1px solid var(--border-color);
+}
+
+#library-tab {
+    border-right: 1px solid var(--border-color);
 }
 
 .navigation-tab.active {
-    background-color: red;
+    background-color: var(--active-tab-background-color);
+    border: none;
 }
 
 .navigation-tab > img {
-    width: 25px;
-    height: 25px;
+    width: var(--tab-icon-size);
+    height: var(--tab-icon-size);
+}
+
+.navigation-tab > div {
+    overflow: hidden;
 }
 
 .navigation-tab-content {
     /* vh = height of screen/view */
     max-height: 50vh;
     overflow: auto;
+    background-color: var(--active-tab-background-color);
+    border-bottom: 1px solid var(--border-color);
     padding: var(--standard-margin);
 }
 
@@ -30,13 +51,21 @@
     resize: vertical;
 }
 
-@media screen and (max-width: 15cm) {
+@media screen and (max-width: 20cm) {
     .navigation-tabs {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
     }
 
     .navigation-tab {
         width: 20vw;
-        height: 2cm;
+        height: 1.5cm;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
+
+    #library-tab {
+        border-right: none;
+    }
+    
 }
