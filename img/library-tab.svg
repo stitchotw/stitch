@@ -1,4 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
-	<circle cx="5" cy="5" r="4"  stroke="lightgray" stroke-width="2" fill="none"/>
-	<line x1="2.5" y1="2.5" x2="7.5" y2="7.5"  stroke="lightgray" stroke-width="2" stroke-linecap="round"/>
+	<defs>
+    	<pattern id="star" viewBox="0,0,10,10" width="1" height="1">
+      		<polygon points="0,0 2,5 0,10 5,8 10,10 8,5 10,0 5,2"/>
+    	</pattern>
+  	</defs>
+
+	<rect x="2" y="1" width="2" height="2" fill="url(#star)"/>
+	<rect x="4" y="1" width="2" height="2" fill="url(#star)"/>
+	<rect x="6" y="1" width="2" height="2" fill="url(#star)"/>
+
+	<rect x="0" y="3" width="2" height="2" fill="url(#star)"/>
+	<rect x="4" y="3" width="2" height="2" fill="url(#star)"/>
+	<rect x="8" y="3" width="2" height="2" fill="url(#star)"/>
+
+	<rect x="0" y="5" width="2" height="2" fill="url(#star)"/>
+	<rect x="2" y="5" width="2" height="2" fill="url(#star)"/>
+	<rect x="4" y="5" width="2" height="2" fill="url(#star)"/>
+	<rect x="6" y="5" width="2" height="2" fill="url(#star)"/>
+	<rect x="8" y="5" width="2" height="2" fill="url(#star)"/>
+
+	<rect x="0" y="7" width="2" height="2" fill="url(#star)"/>
+	<rect x="4" y="7" width="2" height="2" fill="url(#star)"/>
+	<rect x="8" y="7" width="2" height="2" fill="url(#star)"/>
 </svg>
