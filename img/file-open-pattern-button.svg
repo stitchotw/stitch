@@ -1,4 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
-	<circle cx="5" cy="5" r="4"  stroke="lightgray" stroke-width="2" fill="none"/>
-	<line x1="2.5" y1="2.5" x2="7.5" y2="7.5"  stroke="lightgray" stroke-width="2" stroke-linecap="round"/>
+<svg style="stroke:black;stroke-width:3;stroke-linecap:round;fill:none;" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+	<line x1="2" y1="30" x2="21" y2="30"></line>
+	<line x1="2" y1="15" x2="2" y2="29"></line>
+	<line x1="10" y1="22" x2="2" y2="30"></line>
+	<line x1="30" y1="22" x2="22" y2="30"></line>
+	<line x1="10" y1="22" x2="29" y2="22"></line>
+	<line x1="7" y1="3" x2="7" y2="24"></line>
+	<line x1="21" y1="4" x2="21" y2="21"></line>
+	<line x1="7" y1="3" x2="21" y2="3">
+	</line><line x1="2" y1="15" x2="5" y2="15">
+	</line>
+	<rect style="stroke-width:1;fill:black;" x="10" y="6" width="1" height="1"></rect>
+	<rect style="stroke-width:1;fill:black;" x="10" y="9" width="1" height="1"></rect>
+	<rect style="stroke-width:1;fill:black;" x="13" y="12" width="1" height="1"></rect>
+	<rect style="stroke-width:1;fill:black;" x="13" y="6" width="1" height="1"></rect>
 </svg>
