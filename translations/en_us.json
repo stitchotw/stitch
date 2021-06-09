@@ -32,5 +32,8 @@
     "help-about": "About the program",
     "help-about-text": "Some text about the program",
     "help-support": "Help and support",
-    "help-support-text": "Github, youtube, ..."
+    "help-support-text": "Github, youtube, ...",
+    "freepic-attribution": "Flag icons made by <a href='https://www.freepik.com' title='Freepik'>Freepik</a> from <a href='https://www.flaticon.com/' title='Flaticon'>www.flaticon.com</a>",
+    "auto-translation-disclaimer":"Languages marked with a star (*) are translated using Google translate. They are likely to be <e>very</e> bad since this is a really hard translation problem for an automatic system because of all the short texts without context."
+
 }

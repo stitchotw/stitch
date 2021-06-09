@@ -32,5 +32,8 @@
     "help-about": "Om programmet",
     "help-about-text": "Något om programmet status...",
     "help-support": "Hjälp och support",
-    "help-support-text": "Github, youtube,..."
+    "help-support-text": "Github, youtube,...",
+    "freepic-attribution": "Ikoner av <a href='https://www.freepik.com' title='Freepik'>Freepik</a> från <a href='https://www.flaticon.com/' title='Flaticon'>www.flaticon.com</a>",
+    "auto-translation-disclaimer":"Språk markerade med en stjärna (*) har översatts med Google translate. De är troligen <e>riktigt</e> dåliga eftersom domänen, med många korta texter utan sammanhang, är mycket svår att översätta med automatiska system."
+
 }

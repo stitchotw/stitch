@@ -4,12 +4,3 @@
     display: block;
 }
 
-.auto-translated::after {
-    content: "";
-    background: url("../translations/auto-translated.svg");
-    width: 30;
-    height: 30;
-    position: absolute;
-    display: inline-block;
-    transform: translate(-25px, 30px);
-}
