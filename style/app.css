@@ -25,10 +25,22 @@ button > * {
     pointer-events: none;
 }
 
+p{
+    margin: var(--standard-margin);
+}
+
 .horizontal {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    margin: var(--large-margin);
+    row-gap: var(--large-margin);
 }
 
 /* Must be last */
